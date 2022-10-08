@@ -2,13 +2,52 @@ body{
     font-family: 'Roboto', sans-serif;
 }
 
+img{
+    border-radius: 6px;
+}
+
+button{
+    padding: 10px 13px;
+    border-radius: 6px;
+}
+
 .header,
 .footer{
     background-color: #1F2937;
-    color: white;
+    color: #F9FAF8;
 }
 
 .body,
 .action{
     background-color: white;
 }
+
+.hero{
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.subtitle,
+.header-links{
+    font-size: 18px;
+}
+
+.header-links a{
+    text-decoration-line: none;
+    color:#F9FAF8;
+}
+
+.logo{
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.facility{
+    width: 27%;
+    height: auto;
+}
+
+.subtext{
+    font-size: 9px;
+}
+
