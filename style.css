@@ -1,5 +1,7 @@
 body{
     font-family: 'Roboto', sans-serif;
+    padding: 0;
+    margin: 0;
 }
 
 img{
@@ -9,12 +11,18 @@ img{
 button{
     padding: 10px 13px;
     border-radius: 6px;
+    color:#F9FAF8;
+    background-color: #3882F6;
+    font-size: 0.8rem;
+    font-weight: 700;
 }
 
 .header,
 .footer{
     background-color: #1F2937;
     color: #F9FAF8;
+    padding: 0 15%;
+    margin: 0;
 }
 
 .body,
@@ -25,11 +33,13 @@ button{
 .hero{
     font-size: 48px;
     font-weight: 900;
+    padding: 0;
+    margin: 0;
 }
 
 .subtitle,
 .header-links{
-    font-size: 18px;
+    font-size: 16px;
 }
 
 .header-links a{
@@ -40,14 +50,60 @@ button{
 .logo{
     font-size: 24px;
     font-weight: 700;
+    margin: 0;
+    padding: 0;
 }
 
 .facility{
-    width: 27%;
+    max-width: 600px;
     height: auto;
 }
 
 .subtext{
     font-size: 9px;
 }
+
+.upper-header{
+    display:flex;
+    justify-content: space-between;
+    padding-top: 2rem;
+}
+
+.header-links{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.lower-header-left{
+    display: flex;
+    flex-direction: column;
+    flex:0 1 content;
+    gap: 0.5rem;
+    justify-content: center;
+}
+
+.lower-header-right{
+    display: flex;
+    flex: 1 1 auto;
+
+}
+
+.lower-header{
+    display: flex;
+    padding: 3rem 0 7rem;
+    justify-content: center;
+    flex:0 0 auto;
+    max-height: 20%;
+    gap: 15%;
+}
+
+.header-button{
+    width: 25%;
+}
+
+
+
+
+
 
