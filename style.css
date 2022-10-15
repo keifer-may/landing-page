@@ -65,7 +65,7 @@ button{
 }
 
 .subtext{
-    font-size: 9.5px;
+    font-size: 10px;
 }
 
 .upper-header{
@@ -107,8 +107,47 @@ button{
     width: 25%;
 }
 
+.body img{
+    max-width: 200px;
+    max-height: 200px;
+    border-radius: 6px;
+    border: 3px solid #3882F6;
+}
 
+.body{
+    display: flex;
+    flex-direction: column;
+    padding: 0 25%;
+}
 
+.body-title{
+    text-align: center;
+    padding: 2%;
+}
+
+.activities{
+    display: flex;
+    justify-content: space-between;
+    gap: 5%;
+    padding-bottom: 5%;
+}
+
+.activity{
+    display: flex;
+    flex-direction: column;
+    flex: 0 1 auto;
+    align-items: center;
+    justify-content: center;
+}
+
+.text{
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+    border: 0;
+    padding-top: 14px;
+}
 
 
 
